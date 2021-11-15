@@ -10,7 +10,7 @@ services:
       name: hasura
       property: connectionString
   - key: HASURA_GRAPHQL_ENABLE_CONSOLE
-    value: true
+    value: false
   - key: PORT
     value: 10000
 # Uncomment to automatically generate an admin secret
